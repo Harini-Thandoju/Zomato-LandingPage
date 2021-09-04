@@ -6,7 +6,6 @@
     font-family: Metropolis;
     border: none;
 }
-
 *:focus {
     outline: none;
     border: none;
@@ -15,4 +14,28 @@
 a {
     color: unset;
 }
-
+header{
+    background: url('../images/hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+    width: 90%;
+    margin: 0px auto; /*automatically adjust r8 nd left equally*/
+}
+nav .nav-item{
+    color: white;
+    margin: 0px 10px;/*right nd left margin*/
+}
+nav div.container{
+display: flex;
+}
+nav div.nav-item.app{
+font-size: 1.2rem;
+font-weight: 200;
+}
