@@ -36,6 +36,58 @@ nav div.container{
 display: flex;
 }
 nav div.nav-item.app{
-font-size: 1.2rem;
+font-size: 0.9rem;
 font-weight: 200;
+}
+header div.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+    width: 80%;
+    margin: 0px auto;
+}
+header img.logo{
+width: 300px;
+}
+header h1{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 400;
+}
+header div.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+}
+div.search-box div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0px 50px;
+    }
+    header div.search-box i{
+        margin: 10px;
+    } 
+header div.search-box div.select i{
+color: #f57082;
+}
+header div.search-box div.input i{
+    color: #828282b7;
+}
+header div.search-box div.seperator{
+height: 50%;
+background-color: #8282829b;
+width: 2px;
+}
+header div.search-box div.input{
+    flex-grow: 80;
+}
+header div.search-box div.input input{
+    width: 100%;
+    font-size: 1rem;
 }
