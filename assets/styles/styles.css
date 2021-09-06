@@ -296,3 +296,82 @@ section.options div.container div ul li {
     font-size: 1.1rem;
     font-weight: 100;
 }
+footer{
+    
+    background-color: #e8eaed;
+    margin-top: 100px;
+}
+footer nav.nav-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 45%;
+    width: 45%;
+    margin: 0px auto;
+    
+}
+footer nav img.img_logo{
+    width: 150px;
+    
+}
+nav div.container_footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px 0px;
+    width: 100%;
+    margin: 0px auto;
+   
+}
+nav select.popup{
+    border: 1px solid #757575 ;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    margin: 0px 10px;
+}
+nav select.popup div.first6{
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+}
+section.frstcol{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+
+}
+section.frstcol div.companies ul{
+color:grey;
+list-style-type: none;
+}
+section div.social div.social_links img{
+width:28px;
+height: 28px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+footer i.fa-instagram{
+    color: purple;
+}
+footer i.fa-linkedin{
+    color: dodgerblue;
+}
+footer i{
+/*margin: 10px 10px 10px 10px;clock wise direction top,r8,bottom,left*/
+margin: 10px 10px 10px 10px;
+}
+section div.social div.appstores img{
+    width: 150px;px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 20px 20px;
+}
